@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+  }
+.miama-font{
+    font-family: "Miama", sans-serif;
+    font-weight: 400;
+    font-size: 7.5rem;
+
+   
+}
+
+  /* shared stylea */
+.display-flex{
+    display: flex;
+}
+.white-clr{
+    color: rgb(255, 255, 255);
+}
+.light-white{
+    color: rgba(255, 255, 255, 0.5)
+}
+  /* header styles  */
+  
+.bg-clr{
+    background: linear-gradient( rgb(11, 11, 11), rgb(78, 77, 77) , rgb(3, 3, 3));
+    overflow: auto;
+}
+  /* navber styles */
+  .navber{
+    justify-content: space-between;
+    align-items: center;
+   /* margin-top: 57px;
+   margin-left: 190px; */
+  }
+  .brand-name{
+    color: rgb(230, 83, 60);
+    font-size: 2.25rem;
+font-weight: 800;
+/* margin: 0 10px; */
+margin-top: 57px;
+   margin-left: 190px;
+   
+  }
+  .nav-item{
+    list-style: none;
+    margin-right: 30px;
+     }
+  .nav-links{
+    position: static;
+    width: 380px;
+    height: 38px;
+    margin-top: 40px;
+    margin-right: 190px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+   border-radius: 39px;
+   align-items: center;
+   padding: 1px 5px 1px 7px;
+  }
+  .nav-link{
+    text-decoration: none;
+    font-weight: 400;
+     /* border: 2px;
+    border-color: white;  */
+}
+.nav-link1{
+    border-radius: 46px;
+background: rgb(230, 83, 60);
+padding: 8px 20px 8px 20px;
+text-decoration: none;
+  }
+.navber, .banner{
+    max-width: 1440px;
+    margin-bottom: 0;
+
+  }
+  /* banner styles */
+  .banner-content{
+    max-width: 500px;
+    margin-top: 57px;
+   margin-left: 190px;
+   margin-bottom: 30px;
+   
+  }
+  .banner-title{
+    font-size: 4.8rem;
+font-weight: 900;
+margin-bottom: 30px;
+line-height: 100%; 
+
+  }
+  .banner-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+  }
+.btn-primary{
+    border: 1px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px 16px 40px;
+    font-size: 1.125rem;
+font-weight: 600;
+margin-right: 10px;
+margin-bottom: 50px;
+}
+.btn-secondary{
+    border: 1px solid rgb(255, 255, 255);
+border-radius: 42px;
+padding: 16px 40px 16px 40px;
+background-color: transparent;
+font-size: 1.125rem;
+font-weight: 600;
+margin-bottom: 50px;
+}
+.banner-image{
+    position: absolute;
+    width: 349px;;
+height: 540px;
+    left: 777px;
+top: 135px;
+} 
+.card-1{
+position: absolute;
+width: 170px;
+height: 82px;
+left: 1030px;
+top: 280px;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+padding: 0px 15px;
+font-size: 40px;
+font-weight: 900;
+text-align: left;
+}
+.btn-description{
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 13px;
+font-weight: 400;
+text-align: left;
+margin-top: 2px;
+}
+
+.card-2{
+position: absolute;
+width: 165px;
+height: 82px;
+left: 695px;
+top: 526px;
+padding: 7px 20px;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+color: rgb(250, 250, 249);
+font-size: 24px;
+font-weight: 900;
+text-align: left;
+} 
+.btn-des{
+  color: rgba(239, 237, 232, 0.65);
+  font-size: 16px;
+font-weight: 400;
+text-align: left;
+margin-top: 5px;
+}
+/* body section */
+
+.bg-clr2{
+  background: black;
+  /* margin-top: 0; */
+  overflow: auto;
+ 
+
+}
+.habit-info{
+  max-width: 1440px;
+}
+.section-2{
+  max-width: 650px;
+  margin: 0 auto;
+}
+.body-title{
+  font-size: 48px;
+font-weight: 900;
+text-align: center;
+margin-bottom: 5px;
+}
+.body-description{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+font-weight: 400;
+letter-spacing: 0.3px;
+text-align: center;
+}
+.trainer-image{
+width: 100%;
+  border-radius: 50%;
+  margin-right: 40px;
+  margin-top: 50px;
+}
+
+.trainers{
+  padding: 0 230px;
+   
+}
+.habit-title{
+font-size: 18px;
+font-weight: 600;
+text-align: center;
+margin-right: 45px;  
+}
+.habit-des{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+font-weight: 400;
+position: relative;
+text-align: center;
+right: 30px;
+}
+.run-content{
+ 
+  background: rgb(34, 34, 34);
+  border-radius: 18px;
+  margin: 0 190px;
+  width: 1040px;
+  margin-top: 100px;
+
+}
+.run{
+padding: 10px 40px  ;  
+width: 443px;
+height: 290px;
+margin-bottom: 30px;
+}
+.run-title{
+  font-size: 48px;
+  font-weight: 900;
+  text-align: left;
+  margin: 20px 0px;
+ 
+}
+.run-des{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+font-weight: 400;
+text-align: left;
+margin-bottom: 30px; 
+}
+.run-image{
+  border-radius: 10px;
+width: 400px;
+ height: 280px;
+ margin-left: 80px;
+  margin-top: 40px;
+}
+.training-ex{
+  max-width:1060px;
+  margin: 0 190px;
+}
+.training-content{
+  width: 671px;
+  margin: 0px 190px;
+}
+.training-title{
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.training-des{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+font-weight: 400;
+margin-bottom: 100px;
+}
+.bmi-calc{
+margin: 80px 384.5px;
+}
+.bmi-title{
+  font-size: 48px;
+  font-weight: 900;
+}
+.bmi-des{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+font-weight: 400;
+}
+.calc-value{
+  background: rgb(34, 34, 34);
+  padding: 40px 190px;
+}
+.calc-title{
+  width: 440px;
+  font-size: 28px;
+  font-weight: 900;
+  
+  margin-bottom: 40px;
+}
+table{
+  border-collapse: collapse;
+}
+td,th{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+font-weight: 400;
+padding: 10px 15px;
+}
+th{
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+font-weight: 500;
+}
+.process-title{
+  font-size: 28px;
+  font-weight: 900;
+}
+.process-des{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
+.calc-process{
+  
+width: 540px;
+ margin-left: 75px; 
+
+}
+.process-title{
+
+}
+.process-des{
+
+}
+
