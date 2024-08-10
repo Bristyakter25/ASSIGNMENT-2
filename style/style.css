@@ -296,7 +296,7 @@ font-weight: 400;
 }
 .calc-value{
   background: rgb(34, 34, 34);
-  padding: 40px 190px;
+  padding: 30px 190px 20px;
 }
 .calc-title{
   width: 440px;
@@ -336,10 +336,28 @@ width: 540px;
  margin-left: 75px; 
 
 }
-.process-title{
+.measurement{
+  width: 200px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px 40px 12px 20px;
+  border: none;
+  font-size: 16px;
+font-weight: 400;
+color: rgba(255, 255, 255, 0.6);
+margin-bottom: 10px;
 
 }
-.process-des{
-
+.factor{
+  width: 465px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px 40px 12px 20px;
+  border: none;
+  font-size: 16px;
+font-weight: 400;
+color: rgba(255, 255, 255, 0.6);
+margin-bottom: 20px;
 }
+
 
