@@ -29,35 +29,36 @@
   /* header styles  */
   
 .bg-clr{
-    background: linear-gradient( rgb(11, 11, 11), rgb(78, 77, 77) , rgb(3, 3, 3));
+  max-width: 1440px;
+    background: linear-gradient( rgb(11, 11, 11), rgb(78, 77, 77) , rgb(3, 3, 3)); 
     overflow: auto;
+   
 }
   /* navber styles */
   .navber{
     justify-content: space-between;
-    align-items: center;
-   /* margin-top: 57px;
-   margin-left: 190px; */
+     align-items: center; 
+   
   }
   .brand-name{
     color: rgb(230, 83, 60);
     font-size: 2.25rem;
 font-weight: 800;
-/* margin: 0 10px; */
+
 margin-top: 57px;
    margin-left: 190px;
    
   }
   .nav-item{
     list-style: none;
-    margin-right: 30px;
+    margin-right: 20px; 
      }
   .nav-links{
     position: static;
-    width: 380px;
+    width: 350px;
     height: 38px;
     margin-top: 40px;
-    margin-right: 190px;
+    margin-right:190px;
     border: 1px solid rgba(255, 255, 255, 0.1);
    border-radius: 39px;
    align-items: center;
@@ -65,9 +66,9 @@ margin-top: 57px;
   }
   .nav-link{
     text-decoration: none;
+    font-size: 1.125rem;
     font-weight: 400;
-     /* border: 2px;
-    border-color: white;  */
+    
 }
 .nav-link1{
     border-radius: 46px;
@@ -75,11 +76,16 @@ background: rgb(230, 83, 60);
 padding: 8px 20px 8px 20px;
 text-decoration: none;
   }
+  
 .navber, .banner{
     max-width: 1440px;
     margin-bottom: 0;
 
   }
+  .bar-font{
+
+display: none;
+  } 
   /* banner styles */
   .banner-content{
     max-width: 500px;
@@ -96,7 +102,7 @@ line-height: 100%;
 
   }
   .banner-description{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     margin-bottom: 25px;
   }
@@ -119,31 +125,35 @@ font-size: 1.125rem;
 font-weight: 600;
 margin-bottom: 50px;
 }
+.alt-btn{
+  display: none;
+  
+}
 .banner-image{
     position: absolute;
-    width: 349px;;
+    width: 355px;
 height: 540px;
-    left: 777px;
+    left: 877px;
 top: 135px;
 } 
 .card-1{
 position: absolute;
 width: 170px;
 height: 82px;
-left: 1030px;
-top: 280px;
+left: 1130px;
+top: 290px;
 border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 12px;
 backdrop-filter: blur(20px);
 background: rgba(255, 255, 255, 0.1);
 padding: 0px 15px;
-font-size: 40px;
+font-size: 2.5rem;
 font-weight: 900;
 text-align: left;
 }
 .btn-description{
   color: rgba(255, 255, 255, 0.65);
-  font-size: 13px;
+  font-size: 0.81rem;
 font-weight: 400;
 text-align: left;
 margin-top: 2px;
@@ -153,25 +163,28 @@ margin-top: 2px;
 position: absolute;
 width: 165px;
 height: 82px;
-left: 695px;
-top: 526px;
+left: 795px;
+top: 546px;
 padding: 7px 20px;
 border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 12px;
 backdrop-filter: blur(20px);
 background: rgba(255, 255, 255, 0.1);
 color: rgb(250, 250, 249);
-font-size: 24px;
+font-size: 1.5rem;
 font-weight: 900;
 text-align: left;
 } 
 .btn-des{
   color: rgba(239, 237, 232, 0.65);
-  font-size: 16px;
+  font-size: 1rem;
 font-weight: 400;
 text-align: left;
 margin-top: 5px;
 }
+
+ 
+
 /* body section */
 
 .bg-clr2{
@@ -189,14 +202,14 @@ margin-top: 5px;
   margin: 0 auto;
 }
 .body-title{
-  font-size: 48px;
+  font-size: 3rem;
 font-weight: 900;
 text-align: center;
 margin-bottom: 5px;
 }
 .body-description{
   color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
+  font-size: 0.9rem;
 font-weight: 400;
 letter-spacing: 0.3px;
 text-align: center;
@@ -213,14 +226,14 @@ width: 80%;
    
 }
 .habit-title{
-font-size: 18px;
+font-size: 1.125rem;
 font-weight: 600;
 text-align: center;
 margin-right: 45px;  
 }
 .habit-des{
   color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
+  font-size: 0.9rem;
 font-weight: 400;
 position: relative;
 text-align: center;
@@ -242,7 +255,7 @@ height: 290px;
 margin-bottom: 30px;
 }
 .run-title{
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 900;
   text-align: left;
   margin: 20px 0px;
@@ -250,7 +263,7 @@ margin-bottom: 30px;
 }
 .run-des{
   color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
+  font-size: 0.9rem;
 font-weight: 400;
 text-align: left;
 margin-bottom: 30px; 
@@ -271,14 +284,14 @@ width: 400px;
   margin: 0px 190px;
 }
 .training-title{
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 900;
   margin-top: 100px;
   margin-bottom: 20px;
 }
 .training-des{
   color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
+  font-size: 0.9rem;
 font-weight: 400;
 margin-bottom: 100px;
 }
@@ -286,13 +299,13 @@ margin-bottom: 100px;
 margin: 80px 384.5px;
 }
 .bmi-title{
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 900;
   margin-bottom: 10px;
 }
 .bmi-des{
   color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
+  font-size: 0.9rem;
 font-weight: 400;
 }
 .calc-value{
@@ -301,7 +314,7 @@ font-weight: 400;
 }
 .calc-title{
   width: 440px;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 900;
   
   margin-bottom: 40px;
@@ -312,14 +325,14 @@ table{
 td,th{
   border: 1px solid rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
+  font-size: 0.9rem;
 font-weight: 400;
 padding: 10px 15px;
 }
 th{
   text-align: left;
   color: rgb(255, 255, 255);
-  font-size: 16px;
+  font-size: 1rem;
 font-weight: 500;
 }
 .process-title{
@@ -328,7 +341,7 @@ font-weight: 500;
 }
 .process-des{
   color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
+  font-size: 0.9rem;
   font-weight: 400;
 }
 .calc-process{
@@ -343,7 +356,7 @@ width: 540px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px 40px 12px 20px;
   border: none;
-  font-size: 16px;
+  font-size: 1rem;
 font-weight: 400;
 color: rgba(255, 255, 255, 0.6);
 margin-bottom: 10px;
@@ -355,7 +368,7 @@ margin-bottom: 10px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px 40px 12px 20px;
   border: none;
-  font-size: 16px;
+  font-size: 1rem;
 font-weight: 400;
 color: rgba(255, 255, 255, 0.6);
 margin-bottom: 20px;
@@ -365,14 +378,14 @@ margin-bottom: 20px;
   padding: 0 190px;
 } */
 .member-title{
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 900;
   text-align: center;
   margin-bottom: 10px;
 }
 .member-des{
   color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
+  font-size: 0.9rem;
   font-weight: 400;
   text-align: center;
   margin-bottom: 50px;
@@ -403,13 +416,13 @@ padding: 20px 20px;
   border-radius: 18px;
  }
  .trainer-name{
-  font-size: 22px;
+  font-size: 1.4rem;
   font-weight: 900;
   margin-bottom: 5px;
  }
  .trainer-designation{
 
-font-size: 18px;
+font-size: 1.125rem;
 font-weight: 400;
 color: rgba(255, 255, 255, 0.5);
 margin-top: 2px;
@@ -430,7 +443,7 @@ margin-top: 80px;
  }
  .footer-title{
   color: rgb(230, 83, 60);
-  font-size: 70px;
+  font-size: 4.4rem;
 font-weight: 800;
 margin-bottom: 15px;
 margin-top: 10px;
@@ -438,7 +451,7 @@ margin-top: 10px;
  .footer-des{
   width: 443px;
   color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
+  font-size: 0.9rem;
 font-weight: 400;
 line-height: 24px;
  }
@@ -454,7 +467,7 @@ line-height: 24px;
  }
  .items{
   color: rgba(255, 255, 255, 0.5);
-  font-size: 23px;
+  font-size: 1.44rem;
 font-weight: 400;
 list-style: none;
 line-height: 50px;
@@ -477,10 +490,142 @@ bottom: 130px;
  .end-part{
   position: absolute;
   color: rgba(255, 255, 255, 0.5);
-  font-size: 20px;
+  font-size: 1.25rem;
 font-weight: 400;
 bottom: 60px;
 left: 520px;
 letter-spacing: 0.3px;
+}
+/* responsive design for mobile */
+@media  screen and (max-width:576px){
+  .navber, .banner{
+    width: 393px;
+height: 980px;
 
- }
+  }
+  .navber{
+    margin-top: 0;
+    width: 353px;
+height: 43px;
+left: 20px;
+top: 62px;
+  }
+  .nav-links{
+    display: none;
+  }
+  .bar-font{
+    display: block;
+    position: absolute;
+    right: 30px;
+top: 6px;
+  }
+  
+  .bar-font i {
+    font-size: 30px;
+    color:white;
+    margin-top: 20px;
+}
+
+.banner-content{
+  margin-top: 40px;
+  margin-left: 20px;
+    
+    
+}
+.brand-name{
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 26px;
+}
+  
+  .banner-title{
+    font-size: 2.3rem;
+    width: 275px;
+  }
+  .miama-font{
+    font-size:3.125rem ;
+  }
+  .banner-description{
+    width:240px ;
+  }
+  .btn-primary{
+    display: none;
+  }
+  
+  .alt-btn{
+    display: block;
+    width: 300px;
+    height: 54px;
+    border: 1px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding:16px 40px 16px 40px;
+    font-size: 1.125rem;
+  font-weight: 600;
+  margin-right: 10px;
+  margin-bottom: 30px;  
+
+  }
+  .btn-secondary{
+    display: block;
+    width: 300px;
+    height: 54px;
+    border: 1px solid rgb(255, 255, 255);
+border-radius: 42px;
+padding: 14px 18px;
+background-color: transparent;
+font-size: 1.125rem;
+font-weight: 600;
+margin-bottom: 50px;
+
+  }
+  .buttons{
+    display: flex;
+  }
+  .banner-image{
+display: block;
+position: absolute;
+width: 340px;
+height: 582px;
+left: 40px;
+top: 490px;
+} 
+.card-1{
+  position: absolute;
+  width: 142px;
+  height: 70px;
+  left: 230px;
+  top:556.6px;
+  padding: 0px 5px;
+  font-size: 1.8rem;
+  }
+  .card-2{
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    left: 30px;
+    top: 780px;
+    padding: 7px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(250, 250, 249);
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: left;
+    } 
+    .trainers{
+      display: block;
+      width: 325px;
+height: 1200px;
+padding: 0 auto;
+}
+.trainer{
+  width: 221px;
+height: 254px;
+margin-bottom: 50px;
+}
+
+
+}
