@@ -552,8 +552,8 @@ top: 62px;
   .bar-font{
     display: block;
     position: absolute;
-    right: 60px;
-top: 6px;
+    right: 40px;
+top: 10px;
   }
   
   .bar-font i {
