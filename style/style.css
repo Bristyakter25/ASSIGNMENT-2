@@ -552,12 +552,12 @@ top: 62px;
   .bar-font{
     display: block;
     position: absolute;
-    right: 220px;
+    right: 145px;
 top: 6px;
   }
   
   .bar-font i {
-    font-size: 30px;
+    font-size: 20px;
     color:white;
     margin-top: 20px;
 }
