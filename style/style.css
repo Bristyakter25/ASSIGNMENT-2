@@ -397,6 +397,25 @@ color: rgba(255, 255, 255, 0.6);
 margin-bottom: 10px;
 
 }
+.drop-1{
+  margin-right: 4px;
+}
+.drop-2 i {
+  position: absolute;
+font-size: 10px;
+} 
+.icon{
+  padding-left: 230px;
+  padding-top: 15px;
+   color:rgba(255, 255, 255, 0.5);
+   
+}
+.icon2{
+  padding-left: 495px;
+  padding-top: 15px;
+   color:rgba(255, 255, 255, 0.5);
+}
+
 .factor{
   width: 465px;
   border-radius: 8px;
@@ -530,51 +549,45 @@ letter-spacing: 0.3px;
 }
 /* responsive design for mobile */
 @media  screen and (max-width:576px){
-  .bg-clr{
+ .bg-clr{
     width: 350px;
   }
-  
-  .navber, .banner{
-  width: 320px;
-height: 960px;
 
+ .navber, .banner{
+    width: 320px;
+    height: 960px;
   }
-  .navber{
+ .navber{
     margin-top: 0;
     width: 280px;
-height: 43px;
-left: 20px;
-top: 62px;
+    height: 43px;
+    left: 20px;
+    top: 62px;
   }
-  .nav-links{
+ .nav-links{
     display: none;
   }
-  .bar-font{
+ .bar-font{
     display: block;
     position: absolute;
     right: 40px;
-top: 10px;
+    top: 10px;
   }
-  
-  .bar-font i {
+.bar-font i {
     font-size: 20px;
     color:white;
     margin-top: 20px;
-}
-
+ }
 .banner-content{
   margin-top: 40px;
   margin-left: 20px;
-    
-    
-}
+ }
 .brand-name{
   margin-top: 50px;
   margin-left: 20px;
   font-size: 26px;
-}
-  
-  .banner-title{
+ }
+.banner-title{
     font-size: 2.3rem;
     width: 240px;
   }
@@ -587,7 +600,6 @@ top: 10px;
   .btn-primary{
     display: none;
   }
-  
   .alt-btn{
     display: block;
     width: 170px;
@@ -600,8 +612,7 @@ top: 10px;
   font-weight: 600;
   margin-right: 10px;
   margin-bottom: 30px;  
-
-  }
+}
   .btn-secondary{
     display: block;
     width: 170px;
@@ -613,8 +624,7 @@ background-color: transparent;
 font-size: 1.125rem;
 font-weight: 600;
 margin-bottom: 50px;
-
-  }
+}
   .buttons{
     display: flex;
   }
@@ -636,8 +646,7 @@ top: 490px;
   font-size: 1.5rem;
   }
   .btn-description{
-   
-    font-size: 0.7rem;
+  font-size: 0.7rem;
   font-weight: 400;
   text-align: left;
   margin-top: 2px;
@@ -649,7 +658,6 @@ top: 490px;
     left: 30px;
     top: 780px;
     padding: 5px 5px;
-    
     } 
     .ellipse{
       width: 25px;
@@ -657,10 +665,8 @@ top: 490px;
       background: rgb(230, 83, 60);
       margin: 20px 5px 20px 5px;
       }
-    
     .play {
-     
-      display: block;
+     display: block;
       position: absolute;
       font-size: 14px;
       left: 18px;
@@ -668,16 +674,13 @@ top: 490px;
       }
       .number{
         font-size: 1rem;
-      
       margin-right:  10px;
       margin-bottom: 5px;
       margin-top:10px;
       }
       .number-des{
-        
         color: rgba(239, 237, 232, 0.65);
         font-size: 0.7rem;
-      
       }
     .section-2{
       width: 300px;
@@ -686,29 +689,23 @@ margin-left: 25px;
     }
     .body-title{
       font-size: 2rem;
-   
-    text-align: center;
+   text-align: center;
     margin-bottom: 5px;
     }
     .body-description{
-      
       font-size: 0.8rem;
-   
-    letter-spacing: 0.3px;
-    text-align: center;
+      letter-spacing: 0.3px;
+      text-align: center;
     }
     .trainers{
       display: block;
       width: 250px;
 height: 1200px;
 padding: 10px 80px;
-
 }
 .trainer{
- 
-  width: 230px;
+ width: 230px;
 height: 254px;
-/* margin-right:  400px; */
 margin-bottom: 40px;
 }
 .run-content{
@@ -716,7 +713,6 @@ margin-bottom: 40px;
   width: 355px;
 height: 490px;
 margin: 30px 0 ;
-
 }
 .run{
   padding: 15px 20px  ;  
@@ -727,8 +723,7 @@ margin: 30px 0 ;
   .run-title{
     font-size: 2rem;
     margin: 10px 0px;
-   
-  }
+   }
   .run-des{
     margin-bottom: 5px;
     line-height: 24px; 
@@ -756,55 +751,53 @@ height: 115px;
     }
     .bmi-title{
       font-size: 2rem;
-      
       margin-bottom: 10px;
     }
     .bmi-des{
       line-height: 24px;
       font-size: 0.8rem;
-    
     }
     .calc-value{
       display: block;
       width: 330px;
 height: 740px;
-      
       padding: 20px 10px 10px;
-      
-
-    }
+      }
     .calc-title{
       width: 230px;
       font-size: 1rem;
       font-weight: 900;
-      
       margin-bottom: 30px;
     }
     .calc-process{
-      
       width: 340px;
       height: 370px;
       padding:  10px 0px;
-     
-      }
+     }
+     .icon{
+      padding-left: 135px;
+      padding-top: 15px;
+       color:rgba(255, 255, 255, 0.5);
+     }
+     .icon2{
+      padding-left: 300px;
+      padding-top: 15px;
+      color:rgba(255, 255, 255, 0.5);
+    } 
       .measurement{
         width: 110px;
         gap: 10;
         padding: 12px 30px 12px 20px;
       margin-bottom: 10px;
-      
       }
       .factor{
         width: 265px;
-        
-      margin-bottom: 30px;
+        margin-bottom: 30px;
       }
       .process-title{
         font-size: 1rem;
-        
-      }
+        }
       .process-des{
-        
         font-size: 0.8rem;
         line-height: 24px;
       }
@@ -826,7 +819,6 @@ margin: 10px 20px 10px 15px;
     margin-bottom: 10px;
   }
   .member-des{
-    
     font-size: 0.8rem;
     margin-left: 20px;
     margin-bottom: 30px;
@@ -835,7 +827,6 @@ margin: 10px 20px 10px 15px;
     width: 290px;
     height: 1000px;
     margin: 20px 20px 10px 20px;
-    
     padding: 10px 10px 10px 10px;
     }
     .container{
@@ -847,23 +838,18 @@ margin: 10px 20px 10px 15px;
     .members-intro>.member-1{
       display: none;
     }
-    
-     .member{
-      
+    .member{
       width: 285px;
       height: 240px;
       border-radius: 18px;
      margin-bottom: 10px;
      }
      .footer-section{
-     
-      position: relative;
-      
+     position: relative;
     width: 350px;
     height: 1050px;
     margin:20px 0px 10px;
-    
-     }
+    }
      .footer-description{
       display: block;
       padding: 20px 10px 20px 10px;
@@ -873,15 +859,12 @@ margin: 10px 20px 10px 15px;
       margin-right: 20px;
      }
      .footer-title{
-      
-      
-    margin-bottom: 15px;
+      margin-bottom: 15px;
     margin-top: 10px;
      }
      .footer-des{
       width: 270px;
-     
-    line-height: 24px;
+     line-height: 24px;
      }
      .coulumn-2{
       width: 180px;
@@ -893,34 +876,26 @@ margin: 10px 20px 10px 15px;
       font-weight: 700;
       width: 180px;
       margin-top: 15px;
-      
-      
-     }
+      }
      .items{
       font-size: 1.25rem;
       width: 170px;
       height: 152px;
     margin-bottom: 20px;
-    
     }
      .coulumn-3{
-     
-      margin: 30px 0px;
+     margin: 30px 0px;
       width: 180px; 
       height: 230px; 
-     
      }
      .line{
      position: absolute;
-      
       width:300px;
       left: 19px;
     bottom: 130px;
-      
-     }
+      }
      .end-part{
       position: absolute;
-      
     bottom: 60px;
     left: 20px;
     letter-spacing: 0.3px;

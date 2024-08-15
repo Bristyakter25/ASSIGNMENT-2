@@ -128,14 +128,27 @@
             <div class="calc-process"> 
                 <h3 class="process-title white-clr">Calculate your BMI</h3>
                 <p class="process-des">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
-                <form>
-                  <input type="text" placeholder="Height/cm" class="measurement">
-                  <input type="text" placeholder="Weight/kg" class="measurement">
-                  <input type="text" placeholder="Age" class="measurement">
-                  <input type="text" placeholder="Sex" class="measurement">
-                  <input type="text" placeholder="Select an activity factor" class="factor">
-                </form>
-              <button class="btn-primary2 white-clr">Calculate</button>  
+                
+                   <form>
+                    <input type="text" placeholder="Height/cm" class="measurement">
+                    <input type="text" placeholder="Weight/kg" class="measurement">
+                    <div class="drop display-flex">
+                        <div class="drop-1">
+                            <input type="text" placeholder="Age"  class="measurement">
+                        </div>
+                        
+                        <div class="drop-2">
+                            <i class="fa-solid fa-chevron-down icon "></i>
+                            <input type="text" placeholder="Sex" class="measurement">
+                        </div>
+                    </div>
+                    <div class="drop-2">
+                        <i class="fa-solid fa-chevron-down icon2 "></i>
+                        <input type="text" placeholder="Select an activity factor" class="factor">
+                    </div>
+                    
+                   </form>
+            <button class="btn-primary2 white-clr">Calculate</button>  
             </div>
         </section>
         <section>
